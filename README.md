@@ -9,10 +9,10 @@ The application runs through command prompt:
 3) Run the command
 		python/python3 Password_checker.py password/multiple passwords
 
-DOnt write password in any cotations
+Dont write password in any cotations
 
 Example: 
-          python Password_checker.y hello helloworld
+          python Password_checker.py hello helloworld
 
 
 Algorithm
@@ -23,6 +23,6 @@ Algorithm
 
 Here's the trick
 	The application doesn't send your entire password to the API instead, It sends only first 5 characters of your hashed hexadecimal password.
-  And gets the list of all passwords from the API database which match the first 5 characters of your password. 
-  The rest of the password matching takes place locally on your system.
+  	And gets the list of all passwords from the API database which match the first 5 characters of your password. 
+  	The rest of the password matching takes place locally on your system.
 	Thus the API never receives your complete password.
